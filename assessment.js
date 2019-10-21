@@ -49,7 +49,7 @@ const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
 anchor.setAttribute('href', hrefValue);
 anchor.className = 'twitter-hashtag-button';
 anchor.setAttribute('data-text', result);
-anchor.innerText = 'Tweet ＃あなたのいいところ';
+anchor.innerText = 'Tweet #あなたのいいところ';
 
 tweetDivided.appendChild(anchor);
 const script = document.createElement('script');
